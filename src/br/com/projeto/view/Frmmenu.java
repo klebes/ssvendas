@@ -72,7 +72,7 @@ public class Frmmenu extends javax.swing.JFrame {
         jLabel1.setText("Usuário Logado:");
 
         lblusuario.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        lblusuario.setForeground(new java.awt.Color(0, 0, 255));
+        lblusuario.setForeground(new java.awt.Color(0, 153, 153));
         lblusuario.setText("Caio Malheiros");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -114,7 +114,7 @@ public class Frmmenu extends javax.swing.JFrame {
         jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/clientes.png"))); // NOI18N
         jMenu1.setText("Clientes");
 
-        jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_P, java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_P, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/clientes.png"))); // NOI18N
         jMenuItem1.setText("Controle de clientes");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {

@@ -209,7 +209,6 @@ public class ClientesDAO {
         }
     }
 
-    
     //metodo busca Cliente  por Cpf
     public Clientes buscaporcpf(String cpf) {
         try {
@@ -246,10 +245,7 @@ public class ClientesDAO {
             return null;
         }
     }
-    
-    
-    
-    
+
     //Metodo buscarclientePorNome - retorna uma lista
     public List<Clientes> buscaClientePorNome(String nome) {
         try {
@@ -295,11 +291,9 @@ public class ClientesDAO {
     }
 
     //Busca Cep
-    
     public Clientes buscaCep(String cep) {
-       
+
         WebServiceCep webServiceCep = WebServiceCep.searchCep(cep);
-       
 
         Clientes obj = new Clientes();
 
@@ -308,7 +302,7 @@ public class ClientesDAO {
             obj.setCidade(webServiceCep.getCidade());
             obj.setBairro(webServiceCep.getBairro());
             obj.setUf(webServiceCep.getUf());
-            
+
             return obj;
         } else {
             JOptionPane.showMessageDialog(null, "Erro numero: " + webServiceCep.getResulCode());
@@ -317,6 +311,5 @@ public class ClientesDAO {
         }
 
     }
-    
-   
+
 }
