@@ -153,7 +153,7 @@ public class FrmLogin extends javax.swing.JFrame {
             String senha;
 
             id = Integer.parseInt(txtId.getText());
-            senha = txtsenha.getText();
+            senha = String.valueOf(txtsenha.getPassword());
 
             FuncionariosDAO dao = new FuncionariosDAO();
 
