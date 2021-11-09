@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Caio Duarte
+ * @KDS
  */
 public class Frmmenu extends javax.swing.JFrame {
 
@@ -32,7 +32,7 @@ public class Frmmenu extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        ImageIcon icon = new ImageIcon(getClass().getResource("/imagens/fundo.jpg"));
+        ImageIcon icon = new ImageIcon(getClass().getResource("/br/com/projeto/img/fundo.jpg"));
 
         Image image = icon.getImage();
         painel_desktop = new javax.swing.JDesktopPane(){
@@ -73,7 +73,7 @@ public class Frmmenu extends javax.swing.JFrame {
 
         lblusuario.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         lblusuario.setForeground(new java.awt.Color(0, 153, 153));
-        lblusuario.setText("Caio Malheiros");
+        lblusuario.setText("Klebes Santos");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -84,7 +84,7 @@ public class Frmmenu extends javax.swing.JFrame {
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(lblusuario)
-                .addContainerGap(607, Short.MAX_VALUE))
+                .addContainerGap(610, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -107,15 +107,14 @@ public class Frmmenu extends javax.swing.JFrame {
         painel_desktopLayout.setVerticalGroup(
             painel_desktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, painel_desktopLayout.createSequentialGroup()
-                .addGap(0, 392, Short.MAX_VALUE)
+                .addGap(0, 387, Short.MAX_VALUE)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/clientes.png"))); // NOI18N
+        jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/projeto/img/clientes.png"))); // NOI18N
         jMenu1.setText("Clientes");
 
         jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_P, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/clientes.png"))); // NOI18N
         jMenuItem1.setText("Controle de clientes");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -126,7 +125,7 @@ public class Frmmenu extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu1);
 
-        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/funcionarios.png"))); // NOI18N
+        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/projeto/img/funcionarios.png"))); // NOI18N
         jMenu2.setText("Funcionários");
 
         jMenuItem2.setText("Controle de funcionários");
@@ -139,7 +138,7 @@ public class Frmmenu extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu2);
 
-        jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/fornecedores.png"))); // NOI18N
+        jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/projeto/img/fornecedores.png"))); // NOI18N
         jMenu3.setText("Fornecedores");
 
         jMenuItem3.setText("Controle de fornecedores");
@@ -152,7 +151,7 @@ public class Frmmenu extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu3);
 
-        jMenu6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/produtos.png"))); // NOI18N
+        jMenu6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/projeto/img/produtos.png"))); // NOI18N
         jMenu6.setText("Produtos");
 
         jMenuItem4.setText("Controle de estoque");
@@ -173,7 +172,7 @@ public class Frmmenu extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu6);
 
-        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/vendas.png"))); // NOI18N
+        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/projeto/img/vendas.png"))); // NOI18N
         jMenu4.setText("Vendas");
 
         jMenuItem6.setText("Abrir PDV");
@@ -202,7 +201,7 @@ public class Frmmenu extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu4);
 
-        jMenu5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/configuracoes.png"))); // NOI18N
+        jMenu5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/projeto/img/configuracoes.png"))); // NOI18N
         jMenu5.setText("Configurações");
 
         jMenuItem10.setText("Trocar de usuário");
@@ -215,7 +214,7 @@ public class Frmmenu extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu5);
 
-        jMenu7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/sair.png"))); // NOI18N
+        jMenu7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/projeto/img/sair.png"))); // NOI18N
         jMenu7.setText("Sair");
         jMenu7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
