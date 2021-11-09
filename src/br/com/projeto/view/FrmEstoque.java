@@ -117,6 +117,7 @@ public class FrmEstoque extends javax.swing.JFrame {
         });
 
         btnpesquisar.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btnpesquisar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/projeto/img/buscar.png"))); // NOI18N
         btnpesquisar.setText("Pesquisar");
         btnpesquisar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -146,6 +147,7 @@ public class FrmEstoque extends javax.swing.JFrame {
         jLabel18.setText("Qtd:");
 
         btnadd.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btnadd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/projeto/img/novo.png"))); // NOI18N
         btnadd.setText("Adicionar");
         btnadd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -194,7 +196,7 @@ public class FrmEstoque extends javax.swing.JFrame {
                     .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jLabel17)
                         .addComponent(txtestoque, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(21, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Lista de Produtos"));

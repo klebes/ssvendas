@@ -78,6 +78,7 @@ public class FrmLogin extends javax.swing.JFrame {
         txtsenha.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
 
         btnentrar.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        btnentrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/projeto/img/botao-home.png"))); // NOI18N
         btnentrar.setText("ENTRAR");
         btnentrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -86,6 +87,7 @@ public class FrmLogin extends javax.swing.JFrame {
         });
 
         btnsair.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        btnsair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/projeto/img/sair.png"))); // NOI18N
         btnsair.setText("SAIR");
         btnsair.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -112,15 +114,12 @@ public class FrmLogin extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(txtId, javax.swing.GroupLayout.PREFERRED_SIZE, 484, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(175, 175, 175)
-                        .addComponent(btnentrar, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(151, 151, 151)
+                        .addComponent(btnentrar)
                         .addGap(18, 18, 18)
                         .addComponent(btnsair)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-
-        layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {btnentrar, btnsair});
-
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
@@ -133,7 +132,7 @@ public class FrmLogin extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel18)
                     .addComponent(txtsenha, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 38, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 28, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnentrar, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnsair))

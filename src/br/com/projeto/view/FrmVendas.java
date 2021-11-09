@@ -115,6 +115,7 @@ public class FrmVendas extends javax.swing.JFrame {
         );
 
         btnpagamento.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btnpagamento.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/projeto/img/pagamentos.png"))); // NOI18N
         btnpagamento.setText("PAGAMENTO");
         btnpagamento.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -123,6 +124,7 @@ public class FrmVendas extends javax.swing.JFrame {
         });
 
         btncancelar.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btncancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/projeto/img/excluir.png"))); // NOI18N
         btncancelar.setText("CANCELAR VENDA");
         btncancelar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -158,6 +160,7 @@ public class FrmVendas extends javax.swing.JFrame {
         jLabel5.setText("Data:");
 
         btnbuscacliente.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btnbuscacliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/projeto/img/buscar.png"))); // NOI18N
         btnbuscacliente.setText("Pesquisar");
         btnbuscacliente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -214,7 +217,7 @@ public class FrmVendas extends javax.swing.JFrame {
                         .addComponent(jLabel4)
                         .addComponent(txtnome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(btnbuscacliente))
-                .addContainerGap(15, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
@@ -266,6 +269,7 @@ public class FrmVendas extends javax.swing.JFrame {
         jLabel10.setText("Qtd:");
 
         btnadd.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btnadd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/projeto/img/adicionar-item.png"))); // NOI18N
         btnadd.setText("Adicionar Item");
         btnadd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
